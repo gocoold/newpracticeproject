@@ -47,6 +47,7 @@ uti.enteruser().sendKeys(prop.getProperty("username"));
 uti.enterpass().sendKeys(prop.getProperty("password"));
 uti.signinclick().click();
 driver.close();
+System.out.println("executed");
 	
 }
 
